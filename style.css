@@ -2,7 +2,7 @@
     font-family: 'Techno Hideo';
     font-style: normal;
     font-weight: 400;
-    src: local('Techno Hideo'), url('https://fonts.cdnfonts.com/s/46120/techno_hideo.woff') format('woff');
+    src: local('Techno Hideo'), url('techno_hideo.ttf') format('woff');
 }
 canvas {
   display: block;
