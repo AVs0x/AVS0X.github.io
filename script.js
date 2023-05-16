@@ -7,16 +7,16 @@ function launchParticlesJS(a,e){var i=document.querySelector("#"+a+" > canvas");
 /* config dom id (optional) + config particles params */
 particlesJS('particles-js', {
   particles: {
-    color: '00ff00',
+    color: 'FFFFFF',
     shape: 'circle', // "circle", "edge" or "triangle"
     opacity: 1,
     size: 3,
     size_random: true,
-    nb: 260,
+    nb: 100,
     line_linked: {
       enable_auto: true,
-      distance: 100,
-      color: '00ff00',
+      distance: 120,
+      color: 'FFFFFF',
       opacity: 1,
       width: 1,
       condensed_mode: {
@@ -33,7 +33,7 @@ particlesJS('particles-js', {
   interactivity: {
     enable: true,
     mouse: {
-      distance: 250
+      distance: 100
     },
     detect_on: 'canvas', // "canvas" or "window"
     mode: 'grab',
